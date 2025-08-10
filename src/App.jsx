@@ -37,12 +37,12 @@ function App() {
   useEffect(() => {
     //fetch the data on app mount and set films and featured films
     async function fetchData() {
-      const moviesJson = await fetch('http://localhost:3001/movies')
+      const moviesJson = await fetch('https://backend-2bes.onrender.com/movies')//fetch('http://localhost:3001/movies')
       const _movies = await moviesJson.json()
       setMovies(_movies)
       setFeaturedMovies(getRandomElements(_movies, featuredFilmsAmount))
 
-      const seriesJson = await fetch('http://localhost:3001/series')
+      const seriesJson = await fetch("https://backend-2bes.onrender.com/series")//fetch('http://localhost:3001/series')
       const _series = await seriesJson.json()
       setSeries(_series)
       setFeaturedSeries(getRandomElements(_series, featuredFilmsAmount))
