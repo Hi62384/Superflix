@@ -61,9 +61,9 @@ function Footer() {
         </div>
       </div>
       <div style={{ gap: "10px", display: "flex", flexDirection: "row-reverse", marginRight: "125px", marginTop: "75px" }}>
-        <img style={imageStyle2} src="../../src/images/X.png" alt="" />
-        <img style={imageStyle2} src="../../src/images/Facebook.png" alt="" />
-        <img style={imageStyle2} src="../../src/images/Instagram.png" alt="" />
+        <img style={imageStyle2} src="Images/X.png" alt="" />
+        <img style={imageStyle2} src="../../src/Images/Facebook.png" alt="" />
+        <img style={imageStyle2} src="../../src/Images/Instagram.png" alt="" />
       </div>
     </div>
   </div>
