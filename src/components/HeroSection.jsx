@@ -1,9 +1,9 @@
-import Img1 from "../../src/HeroSectionFilms/Duo.png";
-import Img2 from "../../src/HeroSectionFilms/Redditor.png";
-import Img3 from "../../src/HeroSectionFilms/ClashOfTheCoders.png";
-import Img4 from "../../src/HeroSectionFilms/TexasFatMan.png";
-import Img5 from "../../src/HeroSectionFilms/ToyInsanity.png";
-import Img6 from "../../src/HeroSectionFilms/Chemicalling.png";
+import Img1 from "../../public/HeroSectionFilms/Duo.png";
+import Img2 from "../../public/HeroSectionFilms/Redditor.png";
+import Img3 from "../../public/HeroSectionFilms/ClashOfTheCoders.png";
+import Img4 from "../../public/HeroSectionFilms/TexasFatMan.png";
+import Img5 from "../../public/HeroSectionFilms/ToyInsanity.png";
+import Img6 from "../../public/HeroSectionFilms/Chemicalling.png";
 import { useState } from "react";
 
 

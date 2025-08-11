@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 function FeaturedFilmDisplay({ children, films }) {
 
   const getProperPath = (fileName) => {
-    const b = "/src/MovieImages/"
+    const b = "MovieImages/"
     return b + fileName + ".png"
   }
 

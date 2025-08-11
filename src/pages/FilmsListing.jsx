@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom"
 function FilmsListing({ films }) {
 
   const getProperPath = (fileName) => {
-    const b = "../src/MovieImages/"
+    const b = "MovieImages/"
     return b + fileName + ".png"
   }
 

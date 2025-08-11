@@ -106,7 +106,7 @@ function LoginPage({ setAccount }) {
           style={textInputStyle}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <a target="_blank" href="src/ForgotPasswordPage.html" style={{ color: "#6587ffff" }}>Forgot Your Password?</a>
+        <a target="_blank" href="ForgotPasswordPage.html" style={{ color: "#6587ffff" }}>Forgot Your Password?</a>
         <button
           style={{
             ...buttonStyle, backgroundColor: "#c90000ff",

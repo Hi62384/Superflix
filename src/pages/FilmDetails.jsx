@@ -44,13 +44,13 @@ function FilmDetails({ film }) {
 
 
   const getProperPath = (fileName) => {
-    const b = "../src/MovieImages/"
+    const b = "../MovieImages/"
     return b + fileName + ".png"
   }
 
   const getProperScenePath = (fileName) => {
-    const b = "../src/MovieImages/"
-    return b + fileName + "scene.png"
+    const b = "../MovieImages/"
+    return b + fileName + "Scene.png"
   }
 
 
@@ -71,7 +71,7 @@ function FilmDetails({ film }) {
           <p style={textStyle}>({film.reviews})</p>
         </div>
         <div style={horizontalAllignDiv()}>
-          <img src="../src/Images/RottenTomatoes.png" alt="" style={{ width: "25px" }} />
+          <img src="Images/RottenTomatoes.png" alt="" style={{ width: "25px" }} />
           <p style={textStyle}>{film.rotten_tomatoes}%</p>
         </div>
       </div>

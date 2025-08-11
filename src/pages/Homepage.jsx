@@ -11,9 +11,9 @@ function Homepage({ featuredMovies, featuredSeries }) {
     <br />
     <FeaturedFilmDisplay films={featuredSeries}>Featured TV Shows</FeaturedFilmDisplay>
     <br />
-    <ContentSection image={"../src/images/ActorsSpotlight.png"}>Actors Spotlight</ContentSection>
+    <ContentSection image={"Images/ActorsSpotlight.png"}>Actors Spotlight</ContentSection>
     <br />
-    <ContentSection image={"../src/images/CinemaSpotlight.png"}>Cinema Spotlight</ContentSection>
+    <ContentSection image={"Images/CinemaSpotlight.png"}>Cinema Spotlight</ContentSection>
     <br />
   </>
 }

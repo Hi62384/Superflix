@@ -21,9 +21,9 @@ function Footer() {
   }}>
     <div style={{ marginTop: "20px", marginLeft: "100px" }}>
       <div style={{ display: "flex", gap: "40px" }}>
-        <img style={imageStyle} src="../../src/images/DownloadItOnTheAppstore.png" alt="" />
-        <img style={imageStyle} src="../../src/images/GetItOnGooglePlay.png" alt="" />
-        <img style={imageStyle} src="../../src/images/GetItFromMicrosoft.png" alt="" />
+        <img style={imageStyle} src="Images/DownloadItOnTheAppstore.png" alt="" />
+        <img style={imageStyle} src="Images/GetItOnGooglePlay.png" alt="" />
+        <img style={imageStyle} src="Images/GetItFromMicrosoft.png" alt="" />
       </div>
       <br />
       <br />
@@ -62,8 +62,8 @@ function Footer() {
       </div>
       <div style={{ gap: "10px", display: "flex", flexDirection: "row-reverse", marginRight: "125px", marginTop: "75px" }}>
         <img style={imageStyle2} src="Images/X.png" alt="" />
-        <img style={imageStyle2} src="../../src/Images/Facebook.png" alt="" />
-        <img style={imageStyle2} src="../../src/Images/Instagram.png" alt="" />
+        <img style={imageStyle2} src="Images/Facebook.png" alt="" />
+        <img style={imageStyle2} src="Images/Instagram.png" alt="" />
       </div>
     </div>
   </div>
